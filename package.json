@@ -1,0 +1,24 @@
+{
+  "name": "aula05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusleaooliveira/aula05.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gusleaooliveira/aula05/issues"
+  },
+  "homepage": "https://github.com/gusleaooliveira/aula05#readme",
+  "devDependencies": {
+    "jquery": "^3.5.1",
+    "jquery-ui": "^1.12.1"
+  }
+}

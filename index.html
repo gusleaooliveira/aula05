@@ -3,8 +3,78 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+
+    <link rel="stylesheet" href="https://gusleaooliveira.github.io/hcw/css/hcw.min.css"/>
+    
+    
+    <style>
+      .carro{
+        width: 80px;
+        height: 40px;  
+        transform: rotate(180deg);   
+        position: absolute;
+      }
+      .estrada {
+        width: 600px;
+        height: 600px;
+      }
+    </style>
   </head>
   <body>
+
+    <button class="btn btn-success margin-10" id="btnCarro">Andar</button>
+
+    <div class="padding-5 light-gray margin-10 card estrada" >
+       <img src="img/carro.png" alt="Carro" class="carro" id="carro" /> 
+     
+    </div>
+
+    <div class="padding-16 light-gray margin-10 card">
+      <input type="text" placeholder="Clique em mim" class="input input-mini-focus border-bottom-red white"/>
+      <br/>
+      <input type="text" placeholder="Passe por cima de mim" class="input input-mini-hover border-bottom-red white" />
+    </div>
+
+    <script>
+     
+      let botao = document.querySelector("#btnCarro");
+      let imagem = document.querySelector("#carro");
+      
+      botao.onclick = () => {
+
+        imagem.style.left = "520px"; 
+        imagem.style.top = "90px";
+
+        setTimeout(function(){   imagem.style.transform = "rotate(270deg)"; }, 3000);
+
+        
+        
+        setTimeout(function(){ 
+          imagem.style.top = "578px";
+          imagem.style.transform = "rotate(360deg)"; 
+        }, 3000);
+
+        
+
+        setTimeout(function(){ 
+          imagem.style.left = "20px"; 
+          imagem.style.transform = "rotate(90deg)";
+        }, 3000);
+
+        
+
+        setTimeout(function(){ 
+          imagem.style.top = "78px"; 
+          imagem.style.transform = "rotate(180deg)"; 
+         }, 3000);
+
+        
+                 
+      }
+      
+     
+
+    </script>
 
   </body>
 </html>
