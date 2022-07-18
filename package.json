@@ -19,6 +19,6 @@
   "homepage": "https://github.com/gusleaooliveira/aula05#readme",
   "devDependencies": {
     "jquery": "^3.5.1",
-    "jquery-ui": "^1.12.1"
+    "jquery-ui": "^1.13.2"
   }
 }
